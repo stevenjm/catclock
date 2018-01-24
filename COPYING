@@ -1,0 +1,9 @@
+Plan 9 from Bell Labs is provided under the terms of the Lucent Public License,
+Version 1.02, reproduced in the file COPYING.LPL.
+
+Any additions or changes (as recorded in Mercurial history) made by 9front are provided
+under the terms of the MIT License, reproduced in the file COPYING.MIT, unless
+otherwise indicated.
+
+9front's Mercurial history is available at <https://code.9front.org/hg/plan9front>. The
+included files are all taken from the /sys/src/games/ directory.

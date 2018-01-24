@@ -1,0 +1,14 @@
+This is a port of 9front's version of the Plan 9 program catclock to
+Plan 9 from User Space.
+
+This code has only been tested on OpenBSD.
+
+To install, first make sure that you have Plan 9 from User Space (on
+OpenBSD, the package is called 'plan9port') installed. Then run:
+
+  9 mk
+  doas 9 mk install
+
+catclock needs to run in a Plan 9-like environment, so to execute it:
+
+  9 catclock

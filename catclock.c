@@ -73,10 +73,6 @@ eloadimage(Image *i, Rectangle r, uchar *d, int nd)
 	}
 }
 
-int round(double x){
-	return x>=0.?x+.5:x-.5;
-}
-
 void
 redraw(Image *screen)
 {

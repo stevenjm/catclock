@@ -1,14 +1,6 @@
-catclock: catclock.o
-	9l -o catclock catclock.o
+<$PLAN9/src/mkhdr
 
-catclock.o: catclock.c
-	9c catclock.c
+TARG = catclock
+OFILES = $TARG.$O
 
-install: catclock
-	install catclock /usr/local/plan9/bin/catclock
-
-uninstall:
-	[ ! -e /usr/local/plan9/bin/catclock ] || rm /usr/local/plan9/bin/catclock
-
-clean:
-	rm -f catclock catclock.o
+<$PLAN9/src/mkone
